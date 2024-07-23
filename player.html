@@ -103,8 +103,8 @@
         // JW Player configuration
     const urlParams = new URLSearchParams(window.location.search);
     const channelId = urlParams.get('channel');
-    const streamUrl = `manifest.php?id=${channelId}`;
-    const licenseUrl = `lic.php?id=${channelId}`;
+    const streamUrl = `https://f294ec6d-48e9-4759-bdd6-e591ea2a4ff5-00-2dizd1siwzx16.pike.replit.dev/manifest.php?id=${channelId}`;
+    const licenseUrl = `https://f294ec6d-48e9-4759-bdd6-e591ea2a4ff5-00-2dizd1siwzx16.pike.replit.dev/lic.php?id=${channelId}`;
 
     fetchLicenseData(licenseUrl)
       .then(licenseData => {
